@@ -1,0 +1,302 @@
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+body,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.snip1268 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 220px;
+  max-width: 450px;
+  width: 100%;
+  color: #333333;
+  text-align: center;
+  background-color: #ffffff;
+}
+.snip1268 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+.snip1268 img {
+  max-width: 100%;
+  vertical-align: top;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+.snip1268 .add-to-cart {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  opacity: 0;
+}
+.snip1268 .add-to-cart {
+  position: absolute;
+  bottom: 20px;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  font-size: 0.8em;
+  color: #000000;
+  line-height: 46px;
+  letter-spacing: 1.5px;
+  background-color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.snip1268 .add-to-cart:hover {
+  background: #000000;
+  color: #ffffff;
+}
+.snip1268:hover img {
+  opacity: 0.8;
+}
+.snip1268:hover .add-to-cart {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* My custom CSS */
+.column {
+    float: right;
+    width: 25%;
+    padding: 0px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.columnsecond {
+    float: right;
+    width: 90%;
+    padding: 25px;
+    height: 106.66px;
+    overflow: hidden;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.barthing {
+    color: black;
+    background-color: #fff;
+    font-size: 15px;
+    font-family: 'Bree Serif', serif;
+
+}
+.barthing2 {
+    color: black;
+    font-size: 15px;
+    font-family: 'Bree Serif', serif;   
+}
+
+.barthing:hover {
+    background-color: #6c9600;
+    color: white; 
+}
+
+.current {
+    background-color: #6c9600;
+    color: white; 
+}
+
+.nodec {
+      text-decoration:  none;
+}
+
+.feature {
+    width: 300px;
+    height: auto;
+    float: left;
+}
+
+.featureclothes {
+    width: 300px;
+    height: 280px;
+    float: left;
+}
+
+.featuretruck {
+    width: 450px;
+    height: auto;
+    float: left;
+}
+
+.mySlides {display:none}
+
+/* Slideshow container */
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.thumb {
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+.thumbboard {
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+
+.thumbwheel {
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+.thumbtruck {
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+
+.itemname {
+    font-size: 12px;
+    color: #000;
+}
+.itemdesc {
+    font-size: 11px;
+    color: #4f4f4f;
+    margin: 0;
+}
+
+.desc {
+margin: auto;
+display: block;
+width: 240px;
+}
+/* W3.CSS 4.06 November 2017 by Jan Egil and Borge Refsnes */
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+figure,footer{display:block}
+a{background-color:transparent;-webkit-text-decoration-skip:objects}
+a:active,a:hover{outline-width:0}figure{margin:1em 40px}img{border-style:none}
+button,input{font:inherit;margin:0}
+button,input{overflow:visible}button{text-transform:none}
+button,html [type=button]{-webkit-appearance:button}
+button::-moz-focus-inner, [type=button]::-moz-focus-inner{border-style:none;padding:0}
+button:-moz-focusring, [type=button]:-moz-focusring{outline:1px dotted ButtonText}
+::-webkit-input-placeholder{color:inherit;opacity:0.54}
+::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+/* End extract */
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}h2{font-size:30px}h4{font-size:20px}
+h2,h4{font-family:"Montserrat",Arial,sans-serif;font-weight:400;margin:10px 0}.wide{letter-spacing:4px}img{margin-bottom:-5px}a{color:inherit}
+.button{border:none;display:inline-block;outline:0;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+button:hover {color: black;}
+.button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}
+.modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+.modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
+.container:after,.container:before,.row:after,.row:before,.row-padding:after,.row-padding:before{content:"";display:table;clear:both}
+.half{float:left;width:100%}
+@media (min-width:601px){.half{width:49.99999%}}
+.content{max-width:900px;margin:auto}
+@media (max-width:600px){.modal-content{margin:0 10px;width:auto!important}.modal{padding-top:30px}}
+@media (max-width:768px){.modal-content{width:500px}.modal{padding-top:50px}}
+@media (min-width:993px){.modal-content{width:900px}}
+.row-padding,.row-padding>.half{padding:0 8px}
+.container{padding:0.01em 16px}
+.animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}.small{font-size:12px!important}.center{text-align:center!important}.border{border:1px solid #ccc!important}.margin-bottom{margin-bottom:16px!important}.padding-large{padding:12px 24px!important}.left{text-align:left!important}
+.padding-16{padding-top:16px!important;padding-bottom:16px!important}
+.padding-64{padding-top:64px!important;padding-bottom:64px!important}.sidepaddings{padding-left:400px;padding-right:400px;}
+.button:hover{color:#fff!important;background-color:#000!important}
+/* Colors */
+.white{color:#000!important;background-color:#fff!important}
+.light-grey{color:#000!important;background-color:#f1f1f1!important}
+.dark-grey{color:#fff!important;background-color:#616161!important}
+
+
+.lookbook {
+    padding-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.columnC {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.columnC img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.columnD {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 75px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .columnC {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columnC {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.svksvh {
+   font-size: x-large;
+   font-weight: bold;
+   display: inline;
+}
+
+strong {
+    
+}
+
+/* My custom CSS */
+.columnn {
+    float: right;
+    width: 50%;
+    padding: 0px;
+    height: 67px;
+    overflow: hidden;
+}
